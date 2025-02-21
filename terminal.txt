@@ -1,0 +1,18 @@
+* verificar versión de Python
+* verificar versión de node js
+
+-- crear entorno virtual 
+
+pip install virtualenv
+python -m venv "nombre"
+
+-- debemos activar la carpeta scripts
+.\venv\Scripts\activate.bat
+
+
+-- instalar django 
+pip install django 
+
+
+-- creacion del nombre proyecto , estamos creando una API
+ django-admin startproject django_crud_api .
